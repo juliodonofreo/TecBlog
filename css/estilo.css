@@ -10,23 +10,25 @@ body {
 	background: #e6e6e6;
 }
 
+
 /* 
 	Formatação do menu
 */
 
 a{
 	text-decoration: none;
+	padding: 8px 12px;
 }
 
 a:link, a:visited {
 	color: #FFF;
-	padding: 8px 12px;
 }
 
 a:hover {
 	color: #f7b600;
 	background: #FFF;
 }
+
 
 /*
 	Layout
@@ -40,6 +42,38 @@ a:hover {
 
 #area-logo, #area-menu {
 	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+}
+
+#area-postagens, #area-lateral {
+	background: orange;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+.postagens{
+	background: white;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+#rodape {
+	clear: both;
+	padding: 15px;
+	background: #CCC;
+	text-align: center;
 }
 
 /*
