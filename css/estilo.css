@@ -59,10 +59,6 @@ a:hover {
 	padding: 15px;
 }
 
-#area-lateral {
-	background: orange;
-}
-
 #area-postagens {
 	width: 660px;
 	float: left;
@@ -71,6 +67,12 @@ a:hover {
 .postagens{
 	background: white;
 	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
 	margin-bottom: 20px;
 }
 
@@ -86,6 +88,12 @@ a:hover {
 	text-align: center;
 }
 
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	/* border-bottom: 1px dotted #CCC */
+} 	
+
 /*
 	Formatações em geral
 */
@@ -97,6 +105,12 @@ h1 {
 
 h2 {
 	color: #f7b600;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
 }
 
 .branco {
